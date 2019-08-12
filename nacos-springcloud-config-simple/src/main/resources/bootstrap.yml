@@ -6,6 +6,6 @@ spring:
   cloud:
     nacos:
       config:
-        server-addr: 192.168.0.108:8848
-        shared-dataids: nacos-config-springcloud-simple-dev.properties
-        refreshable-dataids: nacos-config-springcloud-simpl-dev.properties
+        server-addr: 127.0.0.1:8848
+        shared-dataids: nacos-springcloud-config-simple-dev.properties
+        refreshable-dataids: nacos-springcloud-config-simple-dev.properties

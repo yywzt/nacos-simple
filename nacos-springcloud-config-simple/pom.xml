@@ -10,7 +10,7 @@
     <groupId>com.example</groupId>
     <artifactId>nacos-springcloud-config-simple</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>nacos-config-springcloud-simple</name>
+    <name>nacos-springcloud-config-simple</name>
     <description>Demo project for Spring Boot</description>
 
     <dependencies>

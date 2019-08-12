@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: nacos-springcloud-config-simple
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.0.108:8848
+        shared-dataids: nacos-config-springcloud-simple-dev.properties
+        refreshable-dataids: nacos-config-springcloud-simpl-dev.properties

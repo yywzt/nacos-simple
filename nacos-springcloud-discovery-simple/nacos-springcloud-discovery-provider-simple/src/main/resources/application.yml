@@ -1,0 +1,10 @@
+server:
+  port: 19096
+
+spring:
+  application:
+    name: nacos-springcloud-discovery-provider-simple
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.108:8848
